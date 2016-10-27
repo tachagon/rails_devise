@@ -3,8 +3,8 @@
 <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
 
   <div class="field">
-    <%= f.label :member_code %><br>
-    <%= f.text_field :member_code, autofocus: true %>
+    <%= f.label :login, "Email or Member code" %><br>
+    <%= f.text_field :login, autofocus: true %>
   </div>
 
   <div class="field">

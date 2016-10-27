@@ -273,7 +273,7 @@ Devise.setup do |config|
   # config.omniauth_path_prefix = '/my_engine/users/auth'
 
 
-  config.authentication_keys = [:member_code]
+  config.authentication_keys = [:login]
   config.case_insensitive_keys = [:member_code]
   config.strip_whitespace_keys = [:member_code]
 
